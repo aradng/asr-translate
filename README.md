@@ -15,7 +15,3 @@ You should publish the codebase on a GitHub repository (private or public) and s
 Technologies that might help you with ASR/translation:
 1. VOSK or Whisper
 2. Argostranslate
-
-Contact:
-sephr.solouki@gmail.com
-09190624272 (Call/SMS/Telegram)
