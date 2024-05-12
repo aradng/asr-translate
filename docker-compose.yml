@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  asr-translate:
+    env_file:
+      - .env
+    image: asr-translate:latest
+    volumes:
+      - .local:/root/.local
+      - ./models:/app/models
+    ports:
+      - "69:8000"
+    command: ["fastapi", "run", "asr-translate.py", "--port", "8000"]
